@@ -1,0 +1,50 @@
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+}
+
+#div1 {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition: background-color, width, height;
+    transition-duration: 6s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+#div1:hover {
+    background-color: lightgrey;
+    width: 30rem;
+    height: 30rem;
+}
+
+#div2 {
+    width: 20rem;
+    height: 20rem;
+}
+
+#div2 p {
+    font-size: 1rem;
+    color: lightsalmon;
+    transition: font-size, color;
+    transition-duration: 5s;
+}
+
+#div2 p:hover {
+    color: lawngreen;
+    font-size: 2rem;
+}
